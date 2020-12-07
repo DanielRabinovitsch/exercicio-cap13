@@ -7,15 +7,15 @@ import java.util.List;
 import entities.enums.WorkersLevel;
 
 public class Worker {
-	//atributos basicos//
+
 private String name;
 private WorkersLevel level;
 private Double baseSalary;
-    //associacoes//
+
 private Department department;
 private List <HourContract> contracts= new ArrayList<HourContract>();//se usa quando tem muitos//
 
-  //public// 
+
     public Worker() {
     }
     public Worker(String name, WorkersLevel level, Double baseSalary, Department department) {
@@ -25,7 +25,7 @@ private List <HourContract> contracts= new ArrayList<HourContract>();//se usa qu
     	this.department = department;
     }
     
-    //getersseters//
+
     public String getName() {
 		return name;
 	}
@@ -53,7 +53,7 @@ private List <HourContract> contracts= new ArrayList<HourContract>();//se usa qu
    public List<HourContract> getContracts() {
 	  return contracts;
    }
-   //metodos resp por fazer ou desfazer os contratos//
+
    public void addContract(HourContract contract) {
 	   contracts.add(contract);
    }

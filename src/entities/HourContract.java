@@ -15,7 +15,7 @@ public class HourContract {
 		this.valuePerHour = valuePerHour;
 		this.hours = hours;
 	}
-//geterseters//
+
 	public Date getDate() {
 		return date;
 	}

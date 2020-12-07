@@ -9,7 +9,6 @@ public class Department {
 	public Department(String name) {
 		this.name = name;
 	}
-//getset name//
 	public String getName() {
 		return name;
 	}
